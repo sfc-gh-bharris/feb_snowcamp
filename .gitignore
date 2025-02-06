@@ -1,0 +1,22 @@
+Snowflake Data Ingestion/java/.DS_Store
+Snowflake Data Ingestion/.DS_Store
+Snowflake Data Ingestion/java/src/.DS_Store
+Snowflake Data Ingestion/java/src/main/.DS_Store
+Snowflake Data Ingestion/java/src/main/java/.DS_Store
+Snowflake Data Ingestion/java/src/main/java/com/.DS_Store
+Snowflake Data Ingestion/java/src/main/java/com/snowflake/.DS_Store
+Snowflake Data Ingestion/java/src/main/java/com/snowflake/streaming/.DS_Store
+Snowflake Data Ingestion/java/target/.DS_Store
+Snowflake Data Ingestion/java/target/classes/.DS_Store
+Snowflake Data Ingestion/java/target/classes/com/.DS_Store
+Snowflake Data Ingestion/java/target/classes/com/snowflake/.DS_Store
+Snowflake Data Ingestion/java/target/classes/com/snowflake/streaming/.DS_Store
+*.class
+*.jar
+Snowflake Data Ingestion/java/target/maven-archiver/pom.properties
+Snowflake Data Ingestion/java/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+Snowflake Data Ingestion/java/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+Snowflake Data Ingestion/python/.DS_Store
+.DS_Store
+.DS_Store
+.DS_Store
