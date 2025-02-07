@@ -144,12 +144,13 @@ def main():
         if relative_paths != "None":
             with st.sidebar.expander("Related Documents"):
                 for path in relative_paths:
-                    cmd2 = f"select GET_PRESIGNED_URL(@docs, '{path}', 360) as URL_LINK from directory(@docs)"
-                    df_url_link = session.sql(cmd2).to_pandas()
-                    url_link = df_url_link._get_value(0,'URL_LINK')
+                    st.write(path)
+                    # cmd2 = f"select GET_PRESIGNED_URL(@docs, '{path}', 360) as URL_LINK from directory(@docs)"
+                    # df_url_link = session.sql(cmd2).to_pandas()
+                    # url_link = df_url_link._get_value(0,'URL_LINK')
         
-                    display_url = f"Doc: [{path}]({url_link})"
-                    st.sidebar.markdown(display_url)
+                    # display_url = f"Doc: [{path}]({url_link})"
+                    # st.sidebar.markdown(display_url)
                 
 if __name__ == "__main__":
     main()
